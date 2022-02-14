@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.form1{
+  background: rgb(0,0, 0,.5);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+.contenedor{
+  width: 100%;
+  padding: 15px;
+  background-color: #183d76  #ddebf4  #86a7c1  #657fa2  #0b53a6  #7196c8  #5c6b89  #0f2346 ;
+  
+}
+
+.formulario{
+  background: #fff;
+  margin-top: 10px;
+  padding: 4px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.usuh2{
+  color:#f8f8f8 ;
+  text-align: center;
+  font-size: 45px;
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+  font-size: 20px;
+  width: 70%;
+  padding: 5px;
+  border: none;
+}
+.select option{
+  padding: 6px;
+  
+}
+.input-contenedor{
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+}
+.fas{
+  min-width: 30px;
+  text-align: center;
+  color: #999;
+}
+.button{
+  border: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+}
+.button:hover{
+  background: cadetblue;
+}
+p{
+  text-align: center;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  cursor: pointer;
+  color: #5dd;
+}
+@media(min-width:768px){
+
+  .formulario{
+    margin:auto;
+    width: 500px;
+    margin-top: 10px;
+  }
+}
+.body bg{
+  background: rgb(95, 123, 214);
+}
+
+
+
+
